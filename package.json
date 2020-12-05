@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build:pro": "ng build --prod --base-href 'https://bmota29.github.io/price-calculator/'"
+    "build:pro": "ng build --prod --base-href '/price-calculator/'"
   },
   "private": true,
   "dependencies": {
