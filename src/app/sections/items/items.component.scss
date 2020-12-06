@@ -1,6 +1,6 @@
 .item-wrapper {
     width: 165px;
-    height: 80px;
+    height: 62px;
     border: solid 1px grey;
     margin: 5px;
     border-radius: 0.3em;
@@ -15,14 +15,15 @@
 
 .item-title {
     margin-top: 0;
-    height: 40px;
+    height: 29px;
     font-weight: bold;
     user-select: none;
     touch-action: manipulation;
 }
 
 .item-fields-wrapper {
-    display: flex;    justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
     padding-right: 15px;
     padding-left: 10px;
     user-select: none;
