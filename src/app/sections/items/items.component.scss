@@ -5,6 +5,7 @@
     margin: 5px;
     border-radius: 0.3em;
     padding: 3px;
+    touch-action: manipulation;
 }
 
 .item-wrapper-added {
@@ -16,19 +17,27 @@
     margin-top: 0;
     height: 40px;
     font-weight: bold;
+    user-select: none;
+    touch-action: manipulation;
 }
 
 .item-fields-wrapper {
     display: flex;    justify-content: space-between;
     padding-right: 15px;
     padding-left: 10px;
+    user-select: none;
+    touch-action: manipulation;
 }
 
 .item-fields-value {
     color: darkred;
     font-size: 30px;
+    user-select: none;
+    touch-action: manipulation;
 }
 
 .item-fields-volume {
     font-size: 30px;
+    user-select: none;
+    touch-action: manipulation;
 }
