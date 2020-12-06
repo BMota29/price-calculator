@@ -6,7 +6,7 @@
         },
         {
             "id": 2,
-            "description": "Bebida"
+            "description": "Bebidas"
         }
     ],
     "items": [
@@ -14,37 +14,91 @@
             "id": 1,
             "description": "Entremeada",
             "value": 2.50,
-            "category": 1
+            "categoryId": 1
         },
         {
             "id": 2,
             "description": "Bifana Simples",
             "value": 2.50,
-            "category": 1
+            "categoryId": 1
         },
         {
             "id": 3,
             "description": "Bifana c/ Queijo",
             "value": 2.75,
-            "category": 1
+            "categoryId": 1
         },
         {
             "id": 4,
             "description": "Bifana c/ Queijo e Bacon",
             "value": 3.00,
-            "category": 1
+            "categoryId": 1
         },
         {
             "id": 5,
             "description": "Bifana Especial",
             "value": 3.00,
-            "category": 1
+            "categoryId": 1
         },
         {
             "id": 6,
             "description": "Cachorro",
             "value": 2.50,
-            "category": 1
+            "categoryId": 1
+        },
+        {
+            "id": 7,
+            "description": "Hamburguer Simples",
+            "value": 2.50,
+            "categoryId": 1
+        },
+        {
+            "id": 8,
+            "description": "Hamburguer c/ Queijo",
+            "value": 2.75,
+            "categoryId": 1
+        },
+        {
+            "id": 8,
+            "description": "Hamburguer c/ Queijo e Bacon",
+            "value": 3.00,
+            "categoryId": 1
+        },
+        {
+            "id": 9,
+            "description": "Hamburguer Especial",
+            "value": 3.25,
+            "categoryId": 1
+        },
+        {
+            "id": 10,
+            "description": "Vegetariana",
+            "value": 1.50,
+            "categoryId": 1
+        },
+        {
+            "id": 11,
+            "description": "Minis",
+            "value": 1.00,
+            "categoryId": 2
+        },
+        {
+            "id": 12,
+            "description": "Latas Garrafas",
+            "value": 1.20,
+            "categoryId": 2
+        },
+        {
+            "id": 13,
+            "description": "Água 0.33 cl",
+            "value": 1.00,
+            "categoryId": 2
+        },
+        {
+            "id": 14,
+            "description": "Café",
+            "value": 0.50,
+            "categoryId": 2
         }
     ]
 }
