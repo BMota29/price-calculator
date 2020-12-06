@@ -1,6 +1,8 @@
 <div class='item-wrapper' [class.item-wrapper-added]="itemAdded > 0" (click)="addToCart()">
-    <div class="item-title">{{item?.description}}</div>
-    <div class="item-fields-wrapper">
+    <div class='item-wrapper-right'> 
+        <div class="item-title">{{item?.description}}</div>
+    </div>
+    <div class="item-fields-wrapper item-wrapper-left">
         <div class="item-fields-volume">{{itemAdded}}</div>
         <div class="item-fields-value">{{item?.value | currency:'EUR'}}</div>
     </div>
