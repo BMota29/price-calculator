@@ -1,6 +1,6 @@
 import { _ParseAST } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
-import { ItemService } from '../../services/item.service';
+import { SumService } from '../../services/sum.service';
 
 @Component({
   selector: 'app-counter',
@@ -9,9 +9,14 @@ import { ItemService } from '../../services/item.service';
 })
 export class CounterComponent implements OnInit {
 
-  constructor(private itemService: ItemService) { }
+  constructor(private itemService: SumService,
+              private sumService: SumService) { }
 
   ngOnInit(): void {
+  }
+
+  resetItems(): void {
+    this.sumService.resetItems();
   }
 
   get itemTotalValue(): number {

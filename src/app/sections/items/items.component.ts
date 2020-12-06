@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Item } from 'src/app/models/item.model';
+import { SumService } from 'src/app/services/sum.service';
 
 @Component({
   selector: 'app-items',
@@ -8,11 +9,20 @@ import { Item } from 'src/app/models/item.model';
 })
 export class ItemsComponent implements OnInit {
 
-  @Input() item: Item | undefined;
+  @Input()
+  item!: Item;
 
-  constructor() { }
+  constructor(private sumService: SumService) { }
 
   ngOnInit(): void {
+  }
+
+  addToCart(): void {
+    this.sumService.setItem(this.item);
+  }
+
+  get itemAdded(): number {
+    return this.sumService.getItemsTotalAdded(this.item.id);
   }
 
 }

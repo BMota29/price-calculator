@@ -1,3 +1,5 @@
-<div class='item-wrapper'>
-    <p>{{item?.description}}</p>
+<div class='item-wrapper' (click)="addToCart()">
+    <p style="margin-top: 0;">{{item?.description}}</p>
+    <p>{{itemAdded}}</p>
+    <p>{{item?.value | currency:'EUR'}}</p>
 </div>
