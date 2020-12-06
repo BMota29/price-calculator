@@ -1,6 +1,6 @@
 .item-wrapper {
     width: 165px;
-    height: 62px;
+    height: 40px;
     border: solid 1px grey;
     margin: 5px;
     border-radius: 0.3em;
@@ -28,17 +28,18 @@
     padding-left: 10px;
     user-select: none;
     touch-action: manipulation;
+    margin-top: -10px;
 }
 
 .item-fields-value {
     color: darkred;
-    font-size: 30px;
+    font-size: 20px;
     user-select: none;
     touch-action: manipulation;
 }
 
 .item-fields-volume {
-    font-size: 30px;
+    font-size: 20px;
     user-select: none;
     touch-action: manipulation;
 }
