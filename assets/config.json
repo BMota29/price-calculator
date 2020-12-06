@@ -1,0 +1,50 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "description": "Comida"
+        },
+        {
+            "id": 2,
+            "description": "Bebida"
+        }
+    ],
+    "items": [
+        {
+            "id": 1,
+            "description": "Entremeada",
+            "value": 2.50,
+            "category": 1
+        },
+        {
+            "id": 2,
+            "description": "Bifana Simples",
+            "value": 2.50,
+            "category": 1
+        },
+        {
+            "id": 3,
+            "description": "Bifana c/ Queijo",
+            "value": 2.75,
+            "category": 1
+        },
+        {
+            "id": 4,
+            "description": "Bifana c/ Queijo e Bacon",
+            "value": 3.00,
+            "category": 1
+        },
+        {
+            "id": 5,
+            "description": "Bifana Especial",
+            "value": 3.00,
+            "category": 1
+        },
+        {
+            "id": 6,
+            "description": "Cachorro",
+            "value": 2.50,
+            "category": 1
+        }
+    ]
+}
