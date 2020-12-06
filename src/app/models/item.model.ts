@@ -1,13 +1,15 @@
 import { DecimalPipe } from '@angular/common';
 
 export class Item {
-    name: string;
+    id: number;
+    description: string;
     value: number;
-    imagePath: string;
+    categoryId: number;
 
-    constructor(name: string, value: number, imagePath: string) {
-        this.name = name;
+    constructor(id: number, description: string, value: number, categoryId: number) {
+        this.id = id;
+        this.description = description;
         this.value = value;
-        this.imagePath = imagePath;
+        this.categoryId = categoryId;
     }
 }
